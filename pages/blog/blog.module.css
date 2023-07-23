@@ -1,0 +1,19 @@
+div.blogPost{
+  text-align: center;
+  margin: 25px 0 0;
+}
+
+a.blogPost,p.blogPost{
+  display: inline;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0px auto;
+}
+
+a.blogPost{
+  color: black;
+}
+
+p.blogPost{
+  color: gray;
+}

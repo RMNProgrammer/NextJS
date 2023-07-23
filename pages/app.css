@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to bottom, #f7f1e3 40%, #d1ccc0, #2c2c54);
+  min-height: 97.5vh;
+  overflow-y: hidden;
+}
+
+.text,.subline{
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.text{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15rem 15rem 2rem;
+}
+
+.subline{
+  font-size: 25px;
+}
+
+.text:hover,.subline:hover{ 
+  color: orange; 
+}
