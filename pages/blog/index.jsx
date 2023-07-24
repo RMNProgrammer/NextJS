@@ -10,9 +10,22 @@ export default function blog() {
       </Head>
       <main>
         <Menu />
-        <p className="text">This is Blog page</p>
-        <p className="subline">Enter anything after /blog/</p>
+        <h3 className="text">This is Blog page</h3>
+        <p>Enter anything after /blog/</p>
       </main>
+      <style jsx>{`
+        p{
+          display: block;
+          font-size: 25px;
+          text-align: center;
+          font-style: italic;
+          color: blueviolet;
+        }
+
+        p:hover{ 
+          color: orange; 
+        }
+      `}</style>
     </>
   )
 }

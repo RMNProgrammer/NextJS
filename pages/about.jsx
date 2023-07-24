@@ -10,7 +10,7 @@ export default function about() {
       </Head>
       <main>
         <Menu />
-        <p className="text">This is About page</p>
+        <h3 className="text">This is About page</h3>
       </main>
     </>
   )

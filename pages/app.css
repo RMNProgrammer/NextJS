@@ -4,23 +4,16 @@ body {
   overflow-y: hidden;
 }
 
-.text,.subline{
+.text{
   display: block;
+  font-size: 35px;
+  font-weight: bold;
   text-align: center;
   font-style: italic;
   color: blueviolet;
-}
-
-.text{
-  font-size: 35px;
-  font-weight: bold;
   margin: 15rem 15rem 2rem;
 }
 
-.subline{
-  font-size: 25px;
-}
-
-.text:hover,.subline:hover{ 
+.text:hover{ 
   color: orange; 
 }
