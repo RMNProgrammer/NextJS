@@ -1,12 +1,13 @@
 import React from 'react'
 import Menu from './menu'
 import Image from 'next/image'
-import styles from './menu.module.css'
 import { css, cx } from '@emotion/css'
+import styles from './menu.module.css'
 import Button from '../components/button'
+import withLocation from '../hoc/withLocation'
 
 const Header = (props) => {
-   console.log('props',props)
+   console.log('props: ',props.router)
    const handelOnClick = () => {
       console.log('Button has been clicked.')
    }
@@ -37,4 +38,4 @@ const Header = (props) => {
    )
 }
 
-export default Header
+export default withLocation(Header)
