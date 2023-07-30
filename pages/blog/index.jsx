@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Menu from '../../Components/menu'
+import Layout from '../../containers/layout'
 
 export default function blog() {
   return (
@@ -9,9 +9,11 @@ export default function blog() {
         <title>Next App - Blog</title>
       </Head>
       <main>
-        <Menu />
-        <h3 className="text">This is Blog page</h3>
-        <p>Enter anything after /blog/</p>
+        <Layout>
+            <h3 className="text">This is Blog page</h3>
+            <p>Enter anything after /blog/</p>
+        </Layout>
+
       </main>
       <style jsx>{`
         p{

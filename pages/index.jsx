@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Menu from '../Components/menu'
+import Layout from '../containers/layout'
 
 export default function Home() {
   return (
@@ -12,8 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Menu />
-        <h3 className="text">Welcome to our site</h3>
+        <Layout>
+          <h3 className="text">Welcome to our site</h3>
+        </Layout>
       </main>
     </>
   )

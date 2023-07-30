@@ -3,12 +3,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 0rem 8rem;
-  margin: -3rem 0.5rem;
 }
 
 .item{
-  margin: 0px 80px;
+  margin: 30px 60px;
   text-decoration: none;
   color: #B33771;
 }
@@ -16,13 +14,13 @@
 .item:hover{
   color: #6D214F;
   font-weight: 500;
-  margin: 0px 79.5px;
+  margin: 0px 59.5px;
 }
 
 .left{
   display: inline-flex;
   justify-content: left;
-  align-items: center;
+  align-items: top;
   position: relative;
-  padding: 1rem 5rem;
+  padding: 1rem;
 }

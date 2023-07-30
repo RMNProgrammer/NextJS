@@ -1,15 +1,14 @@
 import React from 'react'
 import { css, cx } from '@emotion/css'
 
-const Button = ({ children, type, onClick }) => {
+const Alert = ({ children, type }) => {
     return( 
-        <button
-            onClick={onClick}
+        <div
             className={css`
                 border: none;
                 color: white;
-                margin: 5px;
-                padding: 15px;
+                margin: 10px;
+                padding: 32px;
                 cursor: pointer;
                 font-size: 18px;
                 border-radius: 27px;
@@ -21,9 +20,9 @@ const Button = ({ children, type, onClick }) => {
                 }
             `}
         >
-            {children}
-        </button>
+            This is an alert
+        </div>
     )
 }
 
-export default Button
+export default Alert
