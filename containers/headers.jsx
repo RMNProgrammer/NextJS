@@ -5,12 +5,18 @@ import { css, cx } from '@emotion/css'
 import styles from './menu.module.css'
 import Button from '../components/button'
 import withLocation from '../hoc/withLocation'
+import useLocalStorage from '../hooks/useLocalStorage'
 
 const Header = (props) => {
+   const [data,setData] = useLocalStorage('test')
    console.log('props: ',props.router)
+   
    const handelOnClick = () => {
       console.log('Button has been clicked.')
+      setData('This is sample info.')
    }
+
+   console.log('LocalStorage Say: ',data)
 
    return(
       <div
