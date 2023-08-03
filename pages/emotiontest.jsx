@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import { css, cx } from '@emotion/css'
 import Layout from '../containers/layout'
-import Button from '../Components/button'
+import Button from '../components/Button/Button'
 
 export default function emotiontest(){
    const color = '#e74c3c'

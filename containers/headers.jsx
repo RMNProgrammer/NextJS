@@ -3,7 +3,7 @@ import Menu from './menu'
 import Image from 'next/image'
 import { css, cx } from '@emotion/css'
 import styles from './menu.module.css'
-import Button from '../components/button'
+import Button from '../components/Button/Button'
 import withLocation from '../hoc/withLocation'
 import useLocalStorage from '../hooks/useLocalStorage'
 
